@@ -460,7 +460,7 @@ img {
   }
   .menu_windows {
     width: 99.5vw;
-    height: 100vh;
+    height: 80vh;
   }
   .header_title__body {
     font-size: clamp(1.5rem, -1.5rem + 13.33vw, 2.5rem);
@@ -723,18 +723,18 @@ img {
 
 .button_view {
   margin-top: 3em;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
-  font-size: 20px;
 }
 .button_view a {
   text-decoration: none;
+  max-width: 250px;
+  min-width: 150px;
+  font-size: 20px;
+  color: #151618;
   border: 1px solid #151618;
   padding: 12px 40px 12px 40px;
-  color: #151618;
   font-family: Open Sans;
   font-weight: 300;
   -webkit-transition: all 0.8s ease;
@@ -745,6 +745,7 @@ img {
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   text-decoration: underline;
+  background-color: rgb(247, 242, 234);
 }
 
 .prioritise__body {
@@ -769,6 +770,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   width: auto;
+  text-align: center;
 }
 .prioritise__card h1 {
   color: #151618;
@@ -850,17 +852,44 @@ img {
   margin-top: 120px;
 }
 
+.section__input-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+.section__input-checkbox p {
+  color: #151618;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 10px;
+}
+.section__input-checkbox input {
+  margin-top: -25px;
+}
+.section__input-checkbox input:hover {
+  cursor: pointer;
+}
+
+.input-text {
+  width: 100%;
+}
+
 .section__input-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 100%;
+  max-width: 580px;
+  min-width: 320px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 .section__input-text input {
-  width: 80%;
+  width: 88%;
   color: green;
   border: none;
   padding: 10px;
@@ -884,36 +913,15 @@ img {
   color: rgb(184, 181, 139);
 }
 
-.section__input-checkbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 10px;
-}
-.section__input-checkbox p {
-  color: #151618;
-  font-family: Open Sans;
-  font-size: 13px;
-  font-weight: 300;
-  line-height: normal;
-  margin-left: 10px;
-}
-.section__input-checkbox input {
-  margin-top: -25px;
-}
-.section__input-checkbox input:hover {
-  cursor: pointer;
-}
-
 .button_join {
-  width: 150px;
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   font-size: 20px;
-  margin-right: -100px;
+  text-align: center;
 }
 .button_join a {
   text-decoration: none;
+  width: 150px;
   border: 1px solid #151618;
   padding: 12px 40px 12px 40px;
   color: #151618;
@@ -993,6 +1001,10 @@ img {
     min-width: 600px;
     min-height: 400px;
     width: 80%;
+  }
+  .section__input-text {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 950px) {
@@ -1094,12 +1106,6 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  .section__input-text {
-    width: 85%;
-  }
-  .section__input-text input {
-    width: 75%;
-  }
 }
 @media (max-width: 650px) {
   .prioritise__card_section-one {
@@ -1179,12 +1185,6 @@ img {
   }
   .know_more__section_title h1 {
     font-size: clamp(1.5rem, -1.5rem + 13.33vw, 2.5rem);
-  }
-  .section__input-text {
-    width: 79%;
-  }
-  .section__input-text input {
-    width: 70%;
   }
 }
 @media (max-width: 450px) {
@@ -1306,6 +1306,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 25px;
 }
 .products_company__company h1 {
   color: #151618;
@@ -1571,7 +1572,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 300px;
+  width: 310px;
   gap: 30px;
 }
 .footer_icon .payment {
