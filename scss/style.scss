@@ -153,8 +153,7 @@ img {
   transform: translateX(-1000px);
   .cross {
     display: flex;
-    margin-right: 50px;
-    margin-top: 50px;
+    margin: 30px;
     margin-left: auto;
     width: 20px;
     height: 20px;
@@ -370,7 +369,6 @@ img {
   }
   .menu_windows {
     width: 99.5vw;
-    // height: 100%;
   }
   .header_title__body {
     font-size: clamp(1.5rem, -1.5rem + 13.33vw, 2.5rem);
