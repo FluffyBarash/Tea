@@ -294,63 +294,6 @@ img {
   transition: all 0.5s linear;
 }
 
-.menu_widows__footer {
-  background-color: rgb(247, 242, 234);
-  padding: 20px 0px 20px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.menu_widows__footer .footer__link {
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 70px;
-}
-.menu_widows__footer .footer__link .search {
-  margin-left: auto;
-  min-width: 21px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-image: url(../images/header/menu/search.svg);
-}
-.menu_widows__footer .footer__link .search:hover {
-  background-image: url(../images/header/menu/search_green.svg);
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.menu_widows__footer .footer__link .basket {
-  text-decoration: none;
-  min-width: 20px;
-  margin-right: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-image: url(../images/header/menu/basket.svg);
-}
-.menu_widows__footer .footer__link .basket:hover {
-  background-image: url(../images/header/menu/basket_green.svg);
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.menu_widows__footer .footer__link .account {
-  min-width: 18px;
-  margin-right: 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-image: url(../images/header/menu/account.svg);
-}
-.menu_widows__footer .footer__link .account:hover {
-  background-image: url(../images/header/menu/account_green.svg);
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
 .header_title {
   background-image: url(../images/header/title/fon.svg);
   background-position: left;
@@ -459,6 +402,7 @@ img {
   }
   .menu_windows {
     width: 99.5vw;
+    height: 100vh;
   }
   .header_title__body {
     font-size: clamp(1.5rem, -1.5rem + 13.33vw, 2.5rem);

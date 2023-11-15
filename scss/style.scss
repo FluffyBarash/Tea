@@ -217,52 +217,50 @@ img {
   }
 }
 
-.menu_widows__footer {
-  background-color: $top_color;
-  padding: 20px 0px 20px 0px;
-  display: flex;
-  // margin-top: auto;
-  .footer__link {
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    display: flex;
-    gap: 70px;
-    .search {
-      margin-left: auto;
-      min-width: 21px;
-      display: flex;
-      background-image: url(../images/header/menu/search.svg);
-      &:hover {
-        background-image: url(../images/header/menu/search_green.svg);
-        transition: all 0.5s ease;
-      }
-    }
-
-    .basket {
-      text-decoration: none;
-      min-width: 20px;
-      margin-right: 20px;
-      display: flex;
-      background-image: url(../images/header/menu/basket.svg);
-      &:hover {
-        background-image: url(../images/header/menu/basket_green.svg);
-        transition: all 0.5s ease;
-      }
-    }
-
-    .account {
-      min-width: 18px;
-      margin-right: 45px;
-      display: flex;
-      background-image: url(../images/header/menu/account.svg);
-      &:hover {
-        background-image: url(../images/header/menu/account_green.svg);
-        transition: all 0.5s ease;
-      }
-    }
-  }
-}
+// .menu_widows__footer {
+//   background-color: $top_color;
+//   padding: 20px 0px 20px 0px;
+//   display: flex;
+//   margin-top: auto;
+//   .footer__link {
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: auto;
+//     display: flex;
+//     gap: 70px;
+//     .search {
+//       margin-left: auto;
+//       min-width: 21px;
+//       display: flex;
+//       background-image: url(../images/header/menu/search.svg);
+//       &:hover {
+//         background-image: url(../images/header/menu/search_green.svg);
+//         transition: all 0.5s ease;
+//       }
+//     }
+//     .basket {
+//       text-decoration: none;
+//       min-width: 20px;
+//       margin-right: 20px;
+//       display: flex;
+//       background-image: url(../images/header/menu/basket.svg);
+//       &:hover {
+//         background-image: url(../images/header/menu/basket_green.svg);
+//         transition: all 0.5s ease;
+//       }
+//     }
+//     .account {
+//       min-width: 18px;
+//       margin-right: 45px;
+//       display: flex;
+//       background-image: url(../images/header/menu/account.svg);
+//       &:hover {
+//         background-image: url(../images/header/menu/account_green.svg);
+//         transition: all 0.5s ease;
+//       }
+//     }
+//   }
+// }
 
 .header_title {
   background-image: url(../images/header/title/fon.svg);
@@ -369,6 +367,7 @@ img {
   }
   .menu_windows {
     width: 99.5vw;
+    height: 100vh;
   }
   .header_title__body {
     font-size: clamp(1.5rem, -1.5rem + 13.33vw, 2.5rem);
