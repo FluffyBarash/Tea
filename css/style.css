@@ -238,7 +238,7 @@ img {
   margin-right: auto;
 }
 
-.menu_widows__link {
+.menu_windows__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -251,22 +251,22 @@ img {
   width: 100px;
   gap: 30px;
   margin-bottom: 60px;
-  margin-top: 60px;
+  margin-top: 30px;
 }
-.menu_widows__link a {
+.menu_windows__link a {
   color: #151618;
   text-decoration: none;
   font-family: Cormorant;
   font-size: 24px;
   font-weight: 400;
 }
-.menu_widows__link a:hover {
+.menu_windows__link a:hover {
   color: green;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.menu_widows__link_two {
+.menu_windows__link_two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,7 +278,7 @@ img {
   gap: 35px;
   text-align: center;
 }
-.menu_widows__link_two a {
+.menu_windows__link_two a {
   text-decoration: none;
   color: #151618;
   font-family: Open Sans;
@@ -287,7 +287,7 @@ img {
   font-weight: 300;
   line-height: normal;
 }
-.menu_widows__link_two a:hover {
+.menu_windows__link_two a:hover {
   color: green;
   text-decoration: underline;
   -webkit-transition: all 0.5s linear;
@@ -1452,6 +1452,9 @@ img {
   margin-left: auto;
   width: 150px;
   margin-top: 16%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .footer__social-network .facebook {
   background-image: url(../images/footer/facebook.svg);
